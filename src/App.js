@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
-import secrets from './secrets.json';
+//import secrets from './secrets.json';
 
 function App() {
 
@@ -12,7 +12,9 @@ function App() {
 
   async function submitForm(e) {
     e.preventDefault();
-    const webHookURL = secrets.SECRET_URL;
+    //const webHookURL = secrets.SECRET_URL; //in this key I read secret from a file, but this file doesn't go to the github => I need variable
+    const webHookURL = process.env.REACT_APP_SECRET_URL; //deployment!!!!!!!!!!!!!!!!!!! 
+
     const data = {
       "text": `Name: ${name}; Email: ${email}; Message: ${message}`
     }
