@@ -10,6 +10,6 @@ This project was deployed on the Netlify: [Link to deployed prject](https://swee
 <img src="https://github.com/NadiaPia/contact_form-slack/blob/main/src/assets/mobile%20version.jpg"  width="40%" height="60%">
 
 - ### Chat view.
-<img src="https://github.com/NadiaPia/contact_form-slack/blob/main/src/assets/Slack-chat.png"  width="60%" height="50%">
+<img src="https://github.com/NadiaPia/contact_form-slack/blob/main/src/assets/Slack-chat.png" >
 
 -
